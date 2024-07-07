@@ -58,18 +58,7 @@ const UserPreferences = ({ onUpdatePreferences }) => {
               <span className="checkmark"></span>
               Nightlife
             </label>     
-            
-                <label className="custom-checkbox" id='adventure'>
-             <input
-                type="checkbox"
-                name="adventure"
-                checked={preferences.adventure}
-                onChange={handleCheckboxChange}
-                className='adventure'
-              />    
-                <h6> Explore</h6> 
-           
-              </label>
+        
                </div>    
                
 
