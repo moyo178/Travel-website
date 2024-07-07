@@ -494,11 +494,7 @@ ul {
   max-width: 600px;
 }
 
-#adventure h6{
-  padding-left: 1px;
-  font-weight: normal;
-  font-size: 15px;
-}
+
 
 .user-preferences h2 {
   margin-top: 15px;
@@ -919,6 +915,12 @@ ul {
   width: auto;
   height: auto;
   object-fit: cover;
+}
+
+#adventure h6{
+  padding-left: 3px;
+  font-weight: normal;
+  font-size: 15px;
 }
 
 .adventure{
