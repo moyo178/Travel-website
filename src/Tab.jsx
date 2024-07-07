@@ -57,7 +57,7 @@ const Tab = () => {
           Featured Destinations
         </div>
         <div className={activeTab === 'personalized' ? 'tab active' : 'tab'} onClick={() => setActiveTab('personalized')}>
-          Personalized Recommendations
+        Custom suggestions    
         </div>
       </nav>
       <div className="tab-content">
